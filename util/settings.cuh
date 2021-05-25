@@ -1,0 +1,25 @@
+//
+// Created by benjamin on 22/05/2021.
+//
+
+#ifndef LUDOAI_SETTINGS_CUH
+#define LUDOAI_SETTINGS_CUH
+
+#define PLAYER_COUNT 4
+#define PIECES_PER_PLAYER 4
+#define PIECES_COUNT PLAYER_COUNT * PIECES_PER_PLAYER
+
+#define GAMES_PER_AI 2000
+#define AI_COUNT 200
+#define GAMES_COUNT GAMES_PER_AI * AI_COUNT
+
+#define PARAM_COUNT 5
+
+#define FEATURE_COUNT 6
+
+#define AI_KEEP 25
+
+#define MUTATION_RATE 0.05
+#define MUTATION_STRENGTH 0.1
+
+#endif //LUDOAI_SETTINGS_CUH
